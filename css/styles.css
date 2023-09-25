@@ -152,6 +152,7 @@ img {
 
 .hero-screen {
   background-color: #2e2f42;
+  background-blend-mode: overlay;
   background-image: url(/images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
