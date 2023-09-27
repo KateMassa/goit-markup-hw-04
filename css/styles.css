@@ -379,9 +379,13 @@ footer {
   color: #f4f4fd;
 }
 
-.social-media {
+.footer-socials {
   display: inline-block;
   color: #f4f4fd;
   letter-spacing: 0.02em;
   width: 208px;
+}
+
+.footer .social-media-list {
+  gap: 16px;
 }
