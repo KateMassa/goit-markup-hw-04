@@ -380,10 +380,20 @@ footer {
 }
 
 footer .container {
-  align-items: self-start;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.footer-text {
+  display: block;
+  align-items: self-start;
+  width: 1158px;
+  margin: 0;
+  padding: 0;
 }
 
 .logo-footer {
@@ -414,6 +424,7 @@ footer .container {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   width: 208px;
+  margin-left: 120px;
 }
 
 .footer .social-media-list {
